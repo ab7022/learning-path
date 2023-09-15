@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Detail</title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+  <style>
+    /* Add additional CSS styling here */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .restaurant-detail {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .restaurant-detail h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #333333;
+    }
+
+    .restaurant-detail h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #555555;
+    }
+
+    .restaurant-detail p {
+      margin-bottom: 8px;
+      color: #777777;
+    }
+  </style>
+</head>
+<body>
+  <%- include('include/header')%>
+
+  <main>
+    <section class="restaurant-detail">
+      <h2>Restaurant Detail</h2>
+      <h3><%= restaurant.restaurantName %></h3>
+      <p><%= restaurant.address %></p>
+      <p><%= restaurant.phone %></p>
+    </section>
+  </main>
+</body>
+</html>

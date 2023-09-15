@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <form action="/form" method="POST">
+        <header>
+            <h1>Login Form</h1>
+        </header>
+        <main>
+            <div class="contents">
+                <section>
+                    <div class="form-inline">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-inline">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-inline">
+                        <label for="age">Age</label>
+                        <input type="number" step="0.5" id="age" name="age" required min="18">
+                    </div>
+                    <div class="form-inline">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required minlength="7">
+                    </div>
+                    <div class="form-inline">
+                        <label for="birthday">Birth-Date</label>
+                        <input type="date" id="birthday" name="birthday" required min="2003-02-02">
+                    </div>
+                    <label for="color">Favorite Color</label>
+                    <select name="color" id="color">
+                        <option value="none">None</option>
+                        <option value="blue">Blue</option>
+                        <option value="black">Black</option>
+                        <option value="red">Red</option>
+                    </select>
+                    <hr>
+                    <h2>How Should We Verify You</h2>
+                    <div class="sub-container">
+                        <div class="form-inline-rdio">
+                            <input type="radio" name="verify" id="verify-text-message" value="text">
+                            <label for="verify-text-message">Via Text Message (SMS)</label>
+                        </div>
+
+                        <div class="form-inline-radio">
+                            <input type="radio" name="verify" id="verify-phone" value="phone">
+                            <label for="verify-phone">Via Phone Call</label>
+                        </div>
+
+                        <div class="form-inline-radio">
+                            <input type="radio" name="verify" id="verify-email" value="email">
+                            <label for="verify-email">Via Email</label>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <button type="submit">Submit</button>
+        </main>
+    </form>
+
+</body>
+
+</html>

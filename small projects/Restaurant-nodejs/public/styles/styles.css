@@ -1,0 +1,453 @@
+/* Updated styles for the browse page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Light background color */
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.restaurants {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.restaurants h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+.restaurants p {
+  font-size: 16px;
+  /* margin-bottom: 20px; */
+  color: black;
+  text-transform: uppercase;
+}
+
+.restaurant-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.05);
+}
+
+li{
+  list-style: none;
+}
+.restaurant-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+.restaurant-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+
+/* Updated styles for the share page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Light background color */
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.share {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffae33; /* Vibrant background color */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.share h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.share-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  background-color: #fff; /* Light background color */
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Updated styles for the index page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Light background color */
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #eafaf7, #cde7e3); /* Calm gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  color: #333;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.button {
+  position: relative;
+  background-color: #fff;
+  color: #333;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f2f2f2;
+}
+
+.button p {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 250px;
+  background-color: #fff;
+  color: #555;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.button:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+/* styles.css */
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #6a6a6a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 380px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.confirm {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirm h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.confirm p {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-heading {
+  font-size: 100px;
+  color: #ff5757;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #555;
+}
+.btnn {
+  padding: 10px 20px;
+  background-color: #6a6a6a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-left: 380px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 30px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.btnn:hover {
+  background-color: #2980b9;}

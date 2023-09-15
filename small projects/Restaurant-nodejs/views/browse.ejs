@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Browse Restaurants</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+  <%- include('include/header')%>
+
+  <main>
+    <section class="restaurants">
+      <h2>Browse Restaurants</h2>
+      <% if(numberOfRestaurants===0){%>
+         <p>Unfortunately, we have no restaurants yet - Maybe start recommending some? </p>
+        <%} else {  %>
+      <p>We found <%= numberOfRestaurants %> Restaurants for you</p>
+      <form action="/browse" method="get">
+        <input type="hidden" name="order" value="<%= nextOrder %>">
+        <button class="btnn">Change Order</button>
+      </form>
+     <% for(const restaurant of restaurants){ %>
+
+ 
+        <li class="restaurant-card">
+          <h3><%= restaurant.restaurantName %></h3>
+          <p><%= restaurant.address %></p>
+          <p><%= restaurant.phone %></p>
+          <a href="/restaurant-detail?id=<%= restaurant.id %>"  class="button">Link to Website</a>
+        </li>
+      <% } %>
+      <% } %>
+    </section> 
+  </main>
+</body>
+</html>

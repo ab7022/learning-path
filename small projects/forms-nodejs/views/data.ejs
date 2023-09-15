@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Entered Data</title>
+</head>
+
+<body>
+    <h1>Entered Data</h1>
+    <ul>
+        <% for(const signup of signups){ %>
+        <li>
+            <div class="form-data-container">
+                <div class="form-data-row">
+                    <div class="label">Username:</div>
+                    <div class="value"><%= signup.username %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Email:</div>
+                    <div class="value"><%= signup.email %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Age:</div>
+                    <div class="value"><%= signup.age %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Password:</div>
+                    <div class="value"><%= signup.password %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Birth Date:</div>
+                    <div class="value"><%= signup.birthday %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Favorite Color:</div>
+                    <div class="value"><%= signup.color %></div>
+                </div>
+                <div class="form-data-row">
+                    <div class="label">Verification Method:</div>
+                    <div class="value"><%= signup.verify %></div>
+                </div>
+            </div>
+        </li>
+        <% } %>
+    </ul>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
