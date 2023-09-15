@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "lab programs-S2_5bc3b3ae"
+    },
+    {
+      "type": "java",
+      "name": "ContinueExample",
+      "request": "launch",
+      "mainClass": "ContinueExample",
+      "projectName": "lab programs-S2_5bc3b3ae"
+    },
+    {
+      "name": "gcc build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/test",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "C:/MinGW/bin/g++.exe",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "tasks",
+      "miDebuggerPath": "C:/MinGW/bin/g++.exe"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Bayee/OneDrive/Desktop/vs code/C programming/lab programs-S2",
+      "program": "c:/Users/Bayee/OneDrive/Desktop/vs code/C programming/lab programs-S2/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

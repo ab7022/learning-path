@@ -1,0 +1,369 @@
+.logo {
+    font-size: 50px;
+    /* margin-top: -150px; */
+    margin-top: -70px;
+    padding-top: -200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    color: rgb(245, 243, 160);
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Oleo Script', cursive;
+    margin-bottom: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 1em;
+    color: rgb(94, 94, 230);
+}
+
+nav ul li {
+    float: right;
+    font-size: x-large;
+    /* margin-left: 2000px; */
+    margin-top: -70px;
+    color: rgb(146, 146, 216);
+    text-align: right
+}
+
+header .headerr {
+    display: flex;
+    color: rgb(123, 123, 232);
+    width: 100%;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+header a {
+    color: rgb(183, 231, 235);
+}
+
+header nav a:hover {
+    background-color: rgb(183, 231, 235);
+    color: rgb(59, 59, 59);
+}
+
+.ul {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.ul a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url("/imgs/ocean.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: relative;
+    top: 200px;
+    font-size: 0.5em;
+    width: 80%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    background-color: rgba(51, 47, 47, 0.8);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+
+}
+
+.hero-content h1 {
+    font-family: "Ralway", sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-family: "Ralway", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+
+.hero-content a {
+    text-decoration: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    background-color: rgb(255, 251, 0);
+}
+
+.hero-content a:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+.highlights {
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(200, 244, 217));
+
+}
+
+.destination img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 4px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destinations {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    width: 100%;
+    size: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.destination {
+    flex-wrap: wrap;
+    margin: 0 10px;
+    list-style: none;
+
+}
+
+.destination p {
+    color: dimgrey;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.destination strong,
+.destination3 strong,
+.destination2 strong {
+    color: rgb(0, 160, 117);
+
+}
+
+.destination3 p,
+.destination2 p {
+    color: dimgrey;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.highlights h2 {
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(50, 65, 64);
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+
+    width: 100%;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: row;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+@media (max-width: 767px) {
+    .logoo {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+     #menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    } 
+
+    .menu-btn span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: background-color 0.3s ease-in-out;
+    }
+
+
+.destination img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 250px;
+    margin: 0 auto;
+    /* margin-right: 50px;
+        margin-left: -30px; */
+    width: 250px;
+    box-shadow: 2px 2px 4px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    size: 300px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.destination3 p,
+.destination2 p {
+    color: dimgrey;
+
+    margin-left: 100px;
+}
+
+.destination p {
+    color: dimgrey;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+
+ .menu-btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(9, 83, 243);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-btn span::before,
+.menu-btn span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(9, 83, 243);
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-btn span::before {
+    top: -8px;
+}
+
+.menu-btn span::after {
+    top: 8px;
+}
+
+.menu-btn.active span {
+    background-color: transparent;
+}
+
+.menu-btn.active span::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.menu-btn.active span::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+
+}

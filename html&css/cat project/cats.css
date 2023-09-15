@@ -1,0 +1,371 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    font: verdana;
+    box-sizing: border-box;
+}
+
+
+.headerr {
+    /* max-height: max-content; */
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 2px;
+
+}
+
+.headerr {
+    text-transform: uppercase;
+    height: 100px;
+    width: 200;
+    margin: 0px;
+    padding: 20px;
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+    align-self: start;
+    font-family: sans-serif;
+}
+
+.gallery {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 10px;
+
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
+
+}
+
+.footer {
+    background-color: bisque;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+.fst_footer {
+    justify-content: left;
+    align-content: space-around;
+    margin: 30px 100px 10px 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.snd_footer {
+
+    align-content: space-around;
+    margin-left: 300px;
+    justify-content: right;
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.button {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: large;
+    justify-content: center;
+    align-content: space-around;
+    margin: 10px 20px;
+    display: grid;
+    width: 100px;
+    height: 35px;
+    color: black;
+    float: right;
+    animation-name: fadeInOut;
+    /* Specify the name of the animation */
+    animation-duration: 1s;
+    /* Set the duration to 1 second */
+    animation-iteration-count: infinite;
+    /* Repeat the animation indefinitely */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        /* Make the element invisible */
+    }
+
+    50% {
+        opacity: 1;
+        /* Make the element visible */
+    }
+
+    100% {
+        opacity: 0;
+        /* Make the element invisible again */
+    }
+}
+
+.button {
+    animation-name: fadeInOut;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    /* The animation code */
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            /* Set the initial size of the button */
+        }
+
+        50% {
+            transform: scale(1.1);
+            /* Increase the size of the button slightly */
+        }
+
+        100% {
+            transform: scale(1);
+            /* Return the button to its original size */
+        }
+    }
+
+}
+
+.layout {
+    background-color: #232232;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    padding-right: -25%;
+   
+}
+
+.main-layout {
+    max-width: 100%;
+    padding: 0px;
+    background-color: #232232;
+    padding-top: 100px;
+    padding-right: 10%;
+    padding-left: 15%;
+    height: 100%;
+    gap: 20px;
+    margin-bottom: 200px;
+    /* align-content: center;
+    justify-content: center; */
+
+
+}
+
+.content {
+    padding-top: 505px;
+    max-width: 100%;
+    width: 80%;
+    padding: 70px;
+    background-color: rgb(204, 209, 217);
+    padding-top: 80px;
+    border: black solid 2px;
+    border-radius: 10px;
+    height: 95%;
+    padding-left: 50px;
+    align-content: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.content h1 {
+    /* font-weight: 800; */
+    font: 110%;
+    padding: 10%;
+}
+
+.sign-in {
+    color: white;
+    width: 190px;
+    height: 35px;
+    background-color: #232232;
+    border: solid 1px #232232;
+    border-radius: 15px;
+
+}
+
+.sign-in:hover {
+    background-color: rgb(204, 209, 217);
+    color: black;
+    box-shadow: #0a0a23 1px 1px 5px 1px;
+}
+
+/* .sign-up {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    text-shadow: 15px 15px 15px 1px black;
+    
+} */
+.FLEXBOX {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form {
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.btn {
+    max-width: 500px;
+    max-height: max-content;
+    margin: -5px 0px 0px 15px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+
+
+}
+
+.login {
+    row-gap: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sign {
+    margin: 0px;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: flex-;
+    ;
+}
+
+.sign_in {
+    background-color: blue;
+    border: yellowgreen solid 3px;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    font-weight: 300;
+    font-size: larger;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.sign_in:hover {
+    background-color: aquamarine;
+    color: #0a0a23;
+    animation-name: pulse;
+    animation-delay: 5s;
+
+    box-shadow: #0a0a23;
+}
+
+.content H1 {
+    font: 700;
+}
+
+.username {
+    border: none;
+}
+
+.subscribe {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: large;
+    justify-content: center;
+    align-content: space-around;
+    margin: 10px 20px;
+    display: grid;
+    width: 150px;
+    height: 45px;
+    color: white;
+    float: right;
+    animation-name: fadeInOut;
+    /* Specify the name of the animation */
+    animation-duration: 1s;
+    /* Set the duration to 1 second */
+    animation-iteration-count: infinite;
+    /* Repeat the animation indefinitely */
+}
+
+#username,
+#password {
+    background-color: lightyellow;
+    width: 190px;
+    height: 35px;
+    border: solid 1px #232232;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 50px 280px;
+    margin-left: 100px;
+
+}
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+
+h5:before,
+h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+    padding: auto;
+    Padding-top: -30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    object-position: 10%;
+    gap: 30px;
+    width: 55px;
+    height: 55px;
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+.images img {
+    border: 2px solid #0a0a23;
+    border-radius: 10px;
+}

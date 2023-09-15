@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(220, 227, 233);
+    font-size: 16px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+background-color: cornflowerblue;
+width: 220px;
+margin: 0 auto;
+background-color: white;
+box-shadow: 1px 2px 4px rgb(95, 95, 95);
+padding: 30px;
+}
+.header p{
+  font-size: 0.7em;
+    margin-top: -15px;
+    color: rgb(99, 99, 99)
+}
+.header h1{
+    margin-top: -10px;
+    font-size: 1.8em;
+}
+.price{
+    margin-left: -30px;
+    width: 128%;
+    display: flex;
+    height:40px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 183, 240);
+}
+.warning p{
+    font-size: 0.8em;
+    padding: 0 10px;
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    color: rgb(95, 95, 95)
+}
+ul{
+    list-style: none;
+}
+.details{
+    margin-left: -30px;
+    padding-left: -30px;
+}
+.btn{
+   margin-top: 20px ;
+   margin-right: 50px;
+    /* padding-left: -30px; */
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-left: -30; */
+    justify-content: center;
+    height: 40px;
+
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(112, 183, 240);
+    color: rgb(112, 183, 240);
+}
+.btn a{
+
+    text-decoration: none;
+    color: rgb(112, 183, 240);
+}
+.btn:hover{
+    transition: transform 2s ease-in;
+    color: aliceblue;
+    background-color: rgb(112, 183, 240);
+   
+}
+.btn a:hover{
+    transform: scale(1.10);
+    color: aliceblue;
+
+}
+@keyframes buttonAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .btn {
+    animation-name: buttonAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }

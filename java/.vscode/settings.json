@@ -1,0 +1,7 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "files.associations": {
+        "12-FAB.C": "cpp"
+    },
+    "java.dependency.packagePresentation": "hierarchical"
+}
